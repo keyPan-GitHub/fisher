@@ -8,7 +8,9 @@
 from sqlalchemy import Column, Integer, String
 from flask_sqlalchemy import SQLAlchemy
 
-class Book():
+
+db = SQLAlchemy()
+class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)  #书籍编号
     title = Column(String(50),nullable=False) #书籍名称
     author = Column(String(30),default="俠名") #作者姓名
