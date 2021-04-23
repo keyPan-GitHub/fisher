@@ -8,8 +8,8 @@ from app.lib.my_http import MY_HTTP
 
 
 class YuShuBook:
-    isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
-    keyword_url = 'http://t.yushu.im/v2/book/search?q={}&start={}&count={}'
+    isbn_url = 'http://t.talelin.com/v2/book/isbn/{}'
+    keyword_url = 'http://t.talelin.com/v2/book/search?q={}&start={}&count={}'
 
     @classmethod
     def search_by_isbn(cls, isbn):
