@@ -10,6 +10,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 db = SQLAlchemy()
+
 class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)  #书籍编号
     title = Column(String(50),nullable=False) #书籍名称
@@ -19,9 +20,9 @@ class Book(db.Model):
     price = Column(String(20)) #价格
     pages = Column(Integer) #页数
     pubdate = Column(String(20)) #出版的年月
-    isbn = Column(String(15),nullable=False, unique=True) #
-    summary = Column(String(1000))
-    image = Column(String(50))
+    isbn = Column(String(15),nullable=False, unique=True) #isbn变化
+    summary = Column(String(1000)) # 简介
+    image = Column(String(50)) # 突破
 
 
     def sample(self):

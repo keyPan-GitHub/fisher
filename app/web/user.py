@@ -8,6 +8,6 @@
 from . import web
 
 #
-# @web.route('url')
-# def login():
-#     pass
+@web.route('url')
+def login():
+    pass
