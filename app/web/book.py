@@ -5,7 +5,7 @@
 # @File    : book.py
 # @Software: PyCharm
 
-from flask import json, jsonify,request
+from flask import json, jsonify,request,url_for,render_template
 
 from . import web
 from app.lib.helper import is_isbn_or_key
@@ -41,3 +41,12 @@ def search():
         return json.dumps(books,default=lambda o:o.__dict__)
     else:
         return jsonify(form.errors)
+
+@web.route('/test')    
+def test():
+    r = {
+        'name' : '辛酉',
+        'age' : 18
+    }
+    return render_template('test2.html',data=r)
+
