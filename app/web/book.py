@@ -48,5 +48,5 @@ def test():
         'name' : '辛酉',
         'age' : 18
     }
-    return render_template('test2.html',data=r)
+    return render_template('test.html',data=r)
 
