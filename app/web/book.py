@@ -5,7 +5,7 @@
 # @File    : book.py
 # @Software: PyCharm
 
-from flask import json, jsonify,request,url_for,render_template
+from flask import json, jsonify,request,url_for,render_template,flash
 
 from . import web
 from app.lib.helper import is_isbn_or_key
@@ -45,8 +45,10 @@ def search():
 @web.route('/test')    
 def test():
     r = {
-        'name' : '辛酉',
+        'name' : None,
         'age' : 18
     }
+    flash('hello 辛酉')
+    flash('hello jiuyue')
     return render_template('test.html',data=r)
 
