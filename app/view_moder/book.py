@@ -12,17 +12,24 @@
 
 # here put the import lib
 
-from app.web import book
+# from app.web import book
 
 class BookViewModer:
     def __init__(self, book):
-        self.title = book['title'],
-        self.publisher = book['publisher'],
-        self.pages = book['pages'] or '',
-        self.author = '、'.join(book['author']),
-        self.price = book['price'],
-        self.summary = book['summary'] or '',
+        self.title = book['title']
+        self.publisher = book['publisher']
+        self.author = '、'.join(book['author'])
         self.image = book['image']
+        self.price = book['price']
+        self.summary = book['summary']
+        self.isbn = book['isbn']
+        self.pages = book['pages']
+    
+    @property
+    def intro(self):
+        intros = filter(lambda x: True if x else False,
+                        [self.author,self.publisher,self.price])
+        return ' /'.join(intros)
     
 class BookCollection:
     def __init__(self):

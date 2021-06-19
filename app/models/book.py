@@ -6,10 +6,7 @@
 # @Software: PyCharm
 
 from sqlalchemy import Column, Integer, String
-from flask_sqlalchemy import SQLAlchemy
-
-
-db = SQLAlchemy()
+from app.models.base import Base, db
 
 class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)  #书籍编号
