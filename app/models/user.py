@@ -12,16 +12,18 @@
 
 # here put the import lib
 
-from sqlalchemy.sql.expression import true
-from app.models.base import Base, db
-from werkzeug.security import generate_password_hash
-from sqlalchemy import Column, String, Integer, Boolean, Float
 
-class User(Base):
+from app.models.base import db,Base
+from werkzeug.security import generate_password_hash,check_password_hash
+from sqlalchemy import Column, String, Integer, Boolean, Float
+from flask_login import UserMixin
+from app import login_manager
+
+class User(UserMixin,Base):
     id = Column(Integer, primary_key=True) # 用户唯一标识
     nickname = Column(String(24),nullable=False) # 名称
     phone_number = Column(String(18),unique=True) #手机号
-    _password = Column("password", String(128)) #加密密码
+    _password = Column("password", String(128),nullable=False) #加密密码
     email = Column(String(20),unique=True, nullable=False)    #邮件地址
     confirmed = Column(Boolean,default=False)  #出版社
     beans = Column(Float,default=0) #价格
@@ -37,3 +39,13 @@ class User(Base):
     @password.setter
     def password(self, raw):
         self._password = generate_password_hash(raw)
+
+    def check_password(self,raw):
+        return check_password_hash(self._password,raw)
+    
+    # def get_id(self):
+    #     return self.id
+
+@login_manager.user_loader
+def get_user(uid):
+    return User.query.get(int(uid))

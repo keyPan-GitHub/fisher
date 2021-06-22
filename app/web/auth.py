@@ -12,12 +12,14 @@
 
 # here put the import lib
 
-from app.froms.auth import RegisterForm
+from flask.helpers import flash
+from wtforms.validators import Email
+from app.froms.auth import LoginForm, RegisterForm
 from app.models.user import User
 from app.models.base import db
 from . import web
-from flask import request,render_template
-
+from flask import request,render_template,redirect,url_for
+from flask_login import login_user
 __author__ = '七月'
 
 
@@ -29,14 +31,26 @@ def register():
         user.set_attrs(form.data)
         db.session.add(user)
         db.session.commit()
-        
-      
+        return redirect(url_for('web.login'))
+
     return render_template('auth/register.html',form=form)
 
 
 @web.route('/login', methods=['GET', 'POST'])
 def login():
-    pass
+    form = LoginForm(request.form)
+    if request.method == 'POST' and form.validate():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user and user.check_password(form.password.data):
+            login_user(user, remember=True)
+            next =  request.args.get('next')
+            if not next and next.startswith('/'): 
+                next = url_for('web.index')
+            return redirect(next)
+        else:
+            flash('账号不存在，或密码错误')
+    return render_template('auth/login.html', form=form)
+
 
 
 @web.route('/reset/password', methods=['GET', 'POST'])
