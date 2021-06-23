@@ -1,0 +1,1238 @@
+[
+    {
+        "label": "Form",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "NumberRange",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "NumberRange",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SmallInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "isExtraImport": true,
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "with_expression",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy.sql.schema",
+        "description": "sqlalchemy.sql.schema",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy.sql.schema",
+        "description": "sqlalchemy.sql.schema",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.schema",
+        "documentation": {}
+    },
+    {
+        "label": "SmallInteger",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "SmallInteger",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "Wish",
+        "importPath": "app.models.wish",
+        "description": "app.models.wish",
+        "isExtraImport": true,
+        "detail": "app.models.wish",
+        "documentation": {}
+    },
+    {
+        "label": "Gift",
+        "importPath": "app.models.gift",
+        "description": "app.models.gift",
+        "isExtraImport": true,
+        "detail": "app.models.gift",
+        "documentation": {}
+    },
+    {
+        "label": "Gift",
+        "importPath": "app.models.gift",
+        "description": "app.models.gift",
+        "isExtraImport": true,
+        "detail": "app.models.gift",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask.app",
+        "description": "flask.app",
+        "isExtraImport": true,
+        "detail": "flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "false",
+        "importPath": "sqlalchemy.sql.expression",
+        "description": "sqlalchemy.sql.expression",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.expression",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "is_isbn_or_key",
+        "importPath": "app.lib.helper",
+        "description": "app.lib.helper",
+        "isExtraImport": true,
+        "detail": "app.lib.helper",
+        "documentation": {}
+    },
+    {
+        "label": "is_isbn_or_key",
+        "importPath": "app.lib.helper",
+        "description": "app.lib.helper",
+        "isExtraImport": true,
+        "detail": "app.lib.helper",
+        "documentation": {}
+    },
+    {
+        "label": "YuShuBook",
+        "importPath": "app.spider.yushu_book",
+        "description": "app.spider.yushu_book",
+        "isExtraImport": true,
+        "detail": "app.spider.yushu_book",
+        "documentation": {}
+    },
+    {
+        "label": "YuShuBook",
+        "importPath": "app.spider.yushu_book",
+        "description": "app.spider.yushu_book",
+        "isExtraImport": true,
+        "detail": "app.spider.yushu_book",
+        "documentation": {}
+    },
+    {
+        "label": "MY_HTTP",
+        "importPath": "app.lib.my_http",
+        "description": "app.lib.my_http",
+        "isExtraImport": true,
+        "detail": "app.lib.my_http",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask.helpers",
+        "description": "flask.helpers",
+        "isExtraImport": true,
+        "detail": "flask.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask.helpers",
+        "description": "flask.helpers",
+        "isExtraImport": true,
+        "detail": "flask.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "app.froms.auth",
+        "description": "app.froms.auth",
+        "isExtraImport": true,
+        "detail": "app.froms.auth",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "importPath": "app.froms.auth",
+        "description": "app.froms.auth",
+        "isExtraImport": true,
+        "detail": "app.froms.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SearchFrom",
+        "importPath": "app.froms.book",
+        "description": "app.froms.book",
+        "isExtraImport": true,
+        "detail": "app.froms.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookCollection",
+        "importPath": "app.view_moder.book",
+        "description": "app.view_moder.book",
+        "isExtraImport": true,
+        "detail": "app.view_moder.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookViewModer",
+        "importPath": "app.view_moder.book",
+        "description": "app.view_moder.book",
+        "isExtraImport": true,
+        "detail": "app.view_moder.book",
+        "documentation": {}
+    },
+    {
+        "label": "BEANS_UPLOAD_ONE_BOOK",
+        "importPath": "app.setting",
+        "description": "app.setting",
+        "isExtraImport": true,
+        "detail": "app.setting",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "kind": 6,
+        "importPath": "app.froms.auth",
+        "description": "app.froms.auth",
+        "peekOfCode": "class RegisterForm(Form):\n    email = StringField(validators=[DataRequired(),Length(8,64),\n                                    Email(message='电子邮箱不符合规范')])\n    password = PasswordField(validators=[\n        DataRequired(message='密码不可以为空，请输入密码'),Length(6,32)])\n    nickname = StringField(validators=[DataRequired(),Length(2,10,message='昵称字少需要两个字符，最多10个字符')])\n    def validate_email(self,field):\n        if User.query.filter_by(email=field.data).first():\n            raise ValidationError('电子邮件已被注册')\n    def validate_nickname(self,field): ",
+        "detail": "app.froms.auth",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "app.froms.auth",
+        "description": "app.froms.auth",
+        "peekOfCode": "class LoginForm(Form):\n    email = StringField(validators=[DataRequired(),Length(8,64),\n                                    Email(message='电子邮箱不符合规范')])\n    password = PasswordField(validators=[\n        DataRequired(message='密码不可以为空，请输入密码'),Length(6,32)])",
+        "detail": "app.froms.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SearchFrom",
+        "kind": 6,
+        "importPath": "app.froms.book",
+        "description": "app.froms.book",
+        "peekOfCode": "class SearchFrom(Form):\n    q = StringField(validators=[Length(min=1,max=30)])\n    page = IntegerField(validators=[NumberRange(min=1,max=99)],default=1)",
+        "detail": "app.froms.book",
+        "documentation": {}
+    },
+    {
+        "label": "is_isbn_or_key",
+        "kind": 2,
+        "importPath": "app.lib.helper",
+        "description": "app.lib.helper",
+        "peekOfCode": "def is_isbn_or_key(word):\n    \"\"\"\n    判断是不是isbn码\n    :param word: 传进来的参数q\n    :return:\n    \"\"\"\n    isbn_or_key = 'key'\n    if len(word) == 13 and word.isdigit():\n        isbn_or_key = 'isbn'\n    short_word = word.replace('-', '')",
+        "detail": "app.lib.helper",
+        "documentation": {}
+    },
+    {
+        "label": "MY_HTTP",
+        "kind": 6,
+        "importPath": "app.lib.my_http",
+        "description": "app.lib.my_http",
+        "peekOfCode": "class MY_HTTP:\n    \"\"\"\n    发送http请求\n    \"\"\"\n    @staticmethod\n    def get(url, return_json=True):\n        r = requests.get(url)\n        if r.status_code != 200:\n            return {} if return_json else ''\n        return r.json() if return_json else r.text",
+        "detail": "app.lib.my_http",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "kind": 6,
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "peekOfCode": "class SQLAlchemy(_SQLAlchemy):\n    @contextmanager\n    def auto_commit(self):\n        try:\n            yield\n            self.session.Commit() \n        except Exception as e:\n            self.session.rollback()\n            raise e\ndb = _SQLAlchemy()",
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "peekOfCode": "class Base(db.Model):\n    __abstract__ = True\n    # create_time = Column('create_time',Integer)\n    status = Column(SmallInteger,default=1)\n    def set_attrs(self,attrs_dict):\n        for key,value in attrs_dict.items():\n            if hasattr(self,key):\n                setattr(self,key,value)",
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "peekOfCode": "db = _SQLAlchemy()\nclass Base(db.Model):\n    __abstract__ = True\n    # create_time = Column('create_time',Integer)\n    status = Column(SmallInteger,default=1)\n    def set_attrs(self,attrs_dict):\n        for key,value in attrs_dict.items():\n            if hasattr(self,key):\n                setattr(self,key,value)",
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "peekOfCode": "class Book(db.Model):\n    id = Column(Integer, primary_key=True, autoincrement=True)  #书籍编号\n    title = Column(String(50),nullable=False) #书籍名称\n    author = Column(String(30),default=\"俠名\") #作者姓名\n    binding = Column(String(20))    #装帧的版本，精装or平装\n    publisher = Column(String(50))  #出版社\n    price = Column(String(20)) #价格\n    pages = Column(Integer) #页数\n    pubdate = Column(String(20)) #出版的年月\n    isbn = Column(String(15),nullable=False, unique=True) #isbn变化",
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Gift",
+        "kind": 6,
+        "importPath": "app.models.gift",
+        "description": "app.models.gift",
+        "peekOfCode": "class Gift(Base):\n    id = Column(Integer, primary_key=True) # 用户唯一标识\n    user = relationship('User')  # 外键\n    uid = Column(Integer, ForeignKey('user.id')) #在user表中获取id\n    isbn = Column(String(15),nullable=False) \n    # book = relationship('Book')\n    # bid = Column(Integer, ForeignKey('book.id'))\n    launched = Column(Boolean,default=False) # 礼物送出与否，默认为未送出",
+        "detail": "app.models.gift",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "peekOfCode": "class User(UserMixin,Base):\n    id = Column(Integer, primary_key=True) # 用户唯一标识\n    nickname = Column(String(24),nullable=False) # 名称\n    phone_number = Column(String(18),unique=True) #手机号\n    _password = Column(\"password\", String(128),nullable=False) #加密密码\n    email = Column(String(20),unique=True, nullable=False)    #邮件地址\n    confirmed = Column(Boolean,default=False)  #出版社\n    beans = Column(Float,default=0) #价格\n    send_counter = Column(Integer, default=0) #页数\n    receive_counter = Column(Integer, default=0) #出版的年月",
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "peekOfCode": "def get_user(uid):\n    return User.query.get(int(uid))",
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "Wish",
+        "kind": 6,
+        "importPath": "app.models.wish",
+        "description": "app.models.wish",
+        "peekOfCode": "class Wish(Base):\n    id = Column(Integer, primary_key=True) # 用户唯一标识\n    user = relationship('User')  # 外键\n    uid = Column(Integer, ForeignKey('user.id')) #在user表中获取id\n    isbn = Column(String(15),nullable=False) \n    # book = relationship('Book')\n    # bid = Column(Integer, ForeignKey('book.id'))\n    launched = Column(Boolean,default=False) # 礼物送出与否，默认为未送出",
+        "detail": "app.models.wish",
+        "documentation": {}
+    },
+    {
+        "label": "YuShuBook",
+        "kind": 6,
+        "importPath": "app.spider.yushu_book",
+        "description": "app.spider.yushu_book",
+        "peekOfCode": "class YuShuBook:\n    isbn_url = 'http://t.talelin.com/v2/book/isbn/{}'\n    keyword_url = 'http://t.talelin.com/v2/book/search?q={}&count={}&start={}'\n    def __init__(self):\n        self.total = 0\n        self.books = []\n    def search_by_isbn(self, isbn):\n        url = self.isbn_url.format(isbn)\n        result = MY_HTTP.get(url)\n        self.__fill_single(result)",
+        "detail": "app.spider.yushu_book",
+        "documentation": {}
+    },
+    {
+        "label": "BookViewModer",
+        "kind": 6,
+        "importPath": "app.view_moder.book",
+        "description": "app.view_moder.book",
+        "peekOfCode": "class BookViewModer:\n    def __init__(self, book):\n        self.title = book['title']\n        self.publisher = book['publisher']\n        self.author = '、'.join(book['author'])\n        self.image = book['image']\n        self.price = book['price']\n        self.summary = book['summary']\n        self.isbn = book['isbn']\n        self.pages = book['pages']",
+        "detail": "app.view_moder.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookCollection",
+        "kind": 6,
+        "importPath": "app.view_moder.book",
+        "description": "app.view_moder.book",
+        "peekOfCode": "class BookCollection:\n    def __init__(self):\n        self.total = 0\n        self.books = []\n        self.keyword = ''\n    def fill(self, yushu_book,keyword):\n        self.total = yushu_book.total\n        self.keyword = keyword\n        self.books = [BookViewModer(book) for book in yushu_book.books]\nclass _BookViewModer:",
+        "detail": "app.view_moder.book",
+        "documentation": {}
+    },
+    {
+        "label": "_BookViewModer",
+        "kind": 6,
+        "importPath": "app.view_moder.book",
+        "description": "app.view_moder.book",
+        "peekOfCode": "class _BookViewModer:\n    @classmethod\n    def package_singe(cls,data,keyword):\n        returned = {\n            'books':[],\n            'total':0,\n            'keyword':keyword,\n        }\n        if data:\n            returned['total'] = 1",
+        "detail": "app.view_moder.book",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def register():\n    form = RegisterForm(request.form)\n    if request.method == 'POST' and form.validate():\n        with db.auto_commit()\n        user = User()\n        user.set_attrs(form.data)\n        db.session.add(user)\n        db.session.commit()\n        return redirect(url_for('web.login'))\n    return render_template('auth/register.html',form=form)",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def login():\n    form = LoginForm(request.form)\n    if request.method == 'POST' and form.validate():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user and user.check_password(form.password.data):\n            login_user(user, remember=True)\n            next =  request.args.get('next')\n            if not next or not next.startswith('/'): \n                next = url_for('web.index')\n            return redirect(next)",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "forget_password_request",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def forget_password_request():\n    pass\n@web.route('/reset/password/<token>', methods=['GET', 'POST'])\ndef forget_password(token):\n    pass\n@web.route('/change/password', methods=['GET', 'POST'])\ndef change_password():\n    pass\n@web.route('/logout')\ndef logout():",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "forget_password",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def forget_password(token):\n    pass\n@web.route('/change/password', methods=['GET', 'POST'])\ndef change_password():\n    pass\n@web.route('/logout')\ndef logout():\n    pass",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def change_password():\n    pass\n@web.route('/logout')\ndef logout():\n    pass",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "def logout():\n    pass",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "app.web.auth",
+        "description": "app.web.auth",
+        "peekOfCode": "__author__ = '七月'\n@web.route('/register',methods=['GET','POST'])\ndef register():\n    form = RegisterForm(request.form)\n    if request.method == 'POST' and form.validate():\n        with db.auto_commit()\n        user = User()\n        user.set_attrs(form.data)\n        db.session.add(user)\n        db.session.commit()",
+        "detail": "app.web.auth",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "app.web.book",
+        "description": "app.web.book",
+        "peekOfCode": "def search():\n    \"\"\"\n    当前函数要接收，q,start,count,isbn四个参数\n    :return:\n    \"\"\"\n    form = SearchFrom(request.args)\n    books = BookCollection()\n    if form.validate():\n        q = form.q.data.strip()\n        page = form.page.data",
+        "detail": "app.web.book",
+        "documentation": {}
+    },
+    {
+        "label": "book_detail",
+        "kind": 2,
+        "importPath": "app.web.book",
+        "description": "app.web.book",
+        "peekOfCode": "def book_detail(isbn):\n    yushu_book = YuShuBook()\n    yushu_book.search_by_isbn(isbn)\n    book = BookViewModer(yushu_book.first)\n    return render_template('book_detail.html',book=book,wishes=[],gifts=[])\n@web.route('/test')    \ndef test():\n    r = {\n        'name' : None,\n        'age' : 18",
+        "detail": "app.web.book",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "app.web.book",
+        "description": "app.web.book",
+        "peekOfCode": "def test():\n    r = {\n        'name' : None,\n        'age' : 18\n    }\n    flash('hello 辛酉')\n    flash('hello jiuyue')\n    return render_template('test.html',data=r)",
+        "detail": "app.web.book",
+        "documentation": {}
+    },
+    {
+        "label": "send_drift",
+        "kind": 2,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "def send_drift(gid):\n    pass\n@web.route('/pending')\ndef pending():\n    pass\n@web.route('/drift/<int:did>/reject')\ndef reject_drift(did):\n    pass\n@web.route('/drift/<int:did>/redraw')\ndef redraw_drift(did):",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "pending",
+        "kind": 2,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "def pending():\n    pass\n@web.route('/drift/<int:did>/reject')\ndef reject_drift(did):\n    pass\n@web.route('/drift/<int:did>/redraw')\ndef redraw_drift(did):\n    pass\n@web.route('/drift/<int:did>/mailed')\ndef mailed_drift(did):",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "reject_drift",
+        "kind": 2,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "def reject_drift(did):\n    pass\n@web.route('/drift/<int:did>/redraw')\ndef redraw_drift(did):\n    pass\n@web.route('/drift/<int:did>/mailed')\ndef mailed_drift(did):\n    pass",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "redraw_drift",
+        "kind": 2,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "def redraw_drift(did):\n    pass\n@web.route('/drift/<int:did>/mailed')\ndef mailed_drift(did):\n    pass",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "mailed_drift",
+        "kind": 2,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "def mailed_drift(did):\n    pass",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "app.web.drift",
+        "description": "app.web.drift",
+        "peekOfCode": "__author__ = '七月'\n@web.route('/drift/<int:gid>', methods=['GET', 'POST'])\ndef send_drift(gid):\n    pass\n@web.route('/pending')\ndef pending():\n    pass\n@web.route('/drift/<int:did>/reject')\ndef reject_drift(did):\n    pass",
+        "detail": "app.web.drift",
+        "documentation": {}
+    },
+    {
+        "label": "my_gifts",
+        "kind": 2,
+        "importPath": "app.web.gift",
+        "description": "app.web.gift",
+        "peekOfCode": "def my_gifts():\n    return 'My Gifts'\n@web.route('/gifts/book/<isbn>')\n@login_required \ndef save_to_gifts(isbn):\n    if current_user.can_save_to_list(isbn):\n        # try:\n        with db.auto_commit():\n            gift = Gift()\n            gift.isbn = isbn",
+        "detail": "app.web.gift",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_gifts",
+        "kind": 2,
+        "importPath": "app.web.gift",
+        "description": "app.web.gift",
+        "peekOfCode": "def save_to_gifts(isbn):\n    if current_user.can_save_to_list(isbn):\n        # try:\n        with db.auto_commit():\n            gift = Gift()\n            gift.isbn = isbn\n            gift.uid = current_user.id\n            current_user.beans += current_app.config['BEANS_UPLOAD_ONE_BOOK']\n            db.session.add(gift)\n            # db.session.commit()",
+        "detail": "app.web.gift",
+        "documentation": {}
+    },
+    {
+        "label": "redraw_from_gifts",
+        "kind": 2,
+        "importPath": "app.web.gift",
+        "description": "app.web.gift",
+        "peekOfCode": "def redraw_from_gifts(gid):\n    pass",
+        "detail": "app.web.gift",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "app.web.gift",
+        "description": "app.web.gift",
+        "peekOfCode": "__author__ = '七月'\n@web.route('/my/gifts')\n@login_required\ndef my_gifts():\n    return 'My Gifts'\n@web.route('/gifts/book/<isbn>')\n@login_required \ndef save_to_gifts(isbn):\n    if current_user.can_save_to_list(isbn):\n        # try:",
+        "detail": "app.web.gift",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app.web.main",
+        "description": "app.web.main",
+        "peekOfCode": "def index():\n    return 'hello'\n@web.route('/personal')\ndef personal_center():\n    pass",
+        "detail": "app.web.main",
+        "documentation": {}
+    },
+    {
+        "label": "personal_center",
+        "kind": 2,
+        "importPath": "app.web.main",
+        "description": "app.web.main",
+        "peekOfCode": "def personal_center():\n    pass",
+        "detail": "app.web.main",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "app.web.main",
+        "description": "app.web.main",
+        "peekOfCode": "__author__ = '七月'\n@web.route('/')\ndef index():\n    return 'hello'\n@web.route('/personal')\ndef personal_center():\n    pass",
+        "detail": "app.web.main",
+        "documentation": {}
+    },
+    {
+        "label": "my_wish",
+        "kind": 2,
+        "importPath": "app.web.wish",
+        "description": "app.web.wish",
+        "peekOfCode": "def my_wish():\n    pass\n@web.route('/wish/book/<isbn>')\ndef save_to_wish(isbn):\n    pass\n@web.route('/satisfy/wish/<int:wid>')\ndef satisfy_wish(wid):\n    pass\n@web.route('/wish/book/<isbn>/redraw')\ndef redraw_from_wish(isbn):",
+        "detail": "app.web.wish",
+        "documentation": {}
+    },
+    {
+        "label": "save_to_wish",
+        "kind": 2,
+        "importPath": "app.web.wish",
+        "description": "app.web.wish",
+        "peekOfCode": "def save_to_wish(isbn):\n    pass\n@web.route('/satisfy/wish/<int:wid>')\ndef satisfy_wish(wid):\n    pass\n@web.route('/wish/book/<isbn>/redraw')\ndef redraw_from_wish(isbn):\n    pass",
+        "detail": "app.web.wish",
+        "documentation": {}
+    },
+    {
+        "label": "satisfy_wish",
+        "kind": 2,
+        "importPath": "app.web.wish",
+        "description": "app.web.wish",
+        "peekOfCode": "def satisfy_wish(wid):\n    pass\n@web.route('/wish/book/<isbn>/redraw')\ndef redraw_from_wish(isbn):\n    pass",
+        "detail": "app.web.wish",
+        "documentation": {}
+    },
+    {
+        "label": "redraw_from_wish",
+        "kind": 2,
+        "importPath": "app.web.wish",
+        "description": "app.web.wish",
+        "peekOfCode": "def redraw_from_wish(isbn):\n    pass",
+        "detail": "app.web.wish",
+        "documentation": {}
+    },
+    {
+        "label": "__author__",
+        "kind": 5,
+        "importPath": "app.web.wish",
+        "description": "app.web.wish",
+        "peekOfCode": "__author__ = '七月'\n@web.route('/my/wish')\ndef my_wish():\n    pass\n@web.route('/wish/book/<isbn>')\ndef save_to_wish(isbn):\n    pass\n@web.route('/satisfy/wish/<int:wid>')\ndef satisfy_wish(wid):\n    pass",
+        "detail": "app.web.wish",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "app.secure",
+        "description": "app.secure",
+        "peekOfCode": "DEBUG = True\nSQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:123456@localhost:3306/fisher'\nSECRET_KEY = '123456'",
+        "detail": "app.secure",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "kind": 5,
+        "importPath": "app.secure",
+        "description": "app.secure",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:123456@localhost:3306/fisher'\nSECRET_KEY = '123456'",
+        "detail": "app.secure",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.secure",
+        "description": "app.secure",
+        "peekOfCode": "SECRET_KEY = '123456'",
+        "detail": "app.secure",
+        "documentation": {}
+    },
+    {
+        "label": "PER_PAGE",
+        "kind": 5,
+        "importPath": "app.setting",
+        "description": "app.setting",
+        "peekOfCode": "PER_PAGE = 15\nBEANS_UPLOAD_ONE_BOOK = 0.5",
+        "detail": "app.setting",
+        "documentation": {}
+    },
+    {
+        "label": "BEANS_UPLOAD_ONE_BOOK",
+        "kind": 5,
+        "importPath": "app.setting",
+        "description": "app.setting",
+        "peekOfCode": "BEANS_UPLOAD_ONE_BOOK = 0.5",
+        "detail": "app.setting",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "fisher",
+        "description": "fisher",
+        "peekOfCode": "app = create_app()\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', debug=app.config['DEBUG'], port=81)",
+        "detail": "fisher",
+        "documentation": {}
+    }
+]

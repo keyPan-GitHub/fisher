@@ -7,7 +7,7 @@
 @Version :   1.0
 @Contact :   gongzuo7853@163.com
 @License :   (C)Copyright 2020-2021
-@Desc    :   礼物模型
+@Desc    :   心愿模型
 '''
 
 # here put the import lib
@@ -15,7 +15,7 @@ from app.models.base import db,Base
 from sqlalchemy import Column,String,Integer,Boolean,ForeignKey
 from sqlalchemy.orm import relationship
 
-class Gift(Base):
+class Wish(Base):
     id = Column(Integer, primary_key=True) # 用户唯一标识
     user = relationship('User')  # 外键
     uid = Column(Integer, ForeignKey('user.id')) #在user表中获取id

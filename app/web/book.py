@@ -5,7 +5,12 @@
 # @File    : book.py
 # @Software: PyCharm
 
+from app.view_moder.trade import TradeInfo
+from app.models.wish import Wish
+from app.models.gift import Gift
+from app.web import gift
 from flask import json, jsonify,request,url_for,render_template,flash
+from flask_login import current_user
 
 from . import web
 from app.lib.helper import is_isbn_or_key
@@ -47,10 +52,31 @@ def search():
 
 @web.route('/book/<isbn>/detail')    
 def book_detail(isbn):
+    has_in_gifts = False
+    has_in_wishes = False
     yushu_book = YuShuBook()
     yushu_book.search_by_isbn(isbn)
     book = BookViewModer(yushu_book.first)
-    return render_template('book_detail.html',book=book,wishes=[],gifts=[])
+    
+    if current_user.is_authenticated:
+        if Gift.query.filter_by(uid=current_user.id,isbn=isbn,
+                                launched=False).first():
+            has_in_gifts = True
+        if Wish.query.filter_by(uid=current_user.id,isbn=isbn,
+                                launched=False).first():
+            has_in_wishes = True
+            
+    
+    trade_wishes = Wish.query.filter_by(isbn=isbn, launched=False).all()
+    trade_gifts = Gift.query.filter_by(isbn=isbn, launched=False).all()
+    trade_wishes_models = TradeInfo(trade_wishes)
+    trade_gifts_models = TradeInfo(trade_gifts)
+    return render_template('book_detail.html',
+                           book=book,
+                           wishes=trade_wishes_models,
+                           gifts=trade_gifts_models,
+                           has_in_gifts=has_in_gifts,
+                           has_in_wishes=has_in_wishes)
 
 
 
