@@ -12,7 +12,7 @@
 
 # here put the import lib
 
-# from app.web import book
+from app.web import book
 
 class BookViewModer:
     def __init__(self, book):

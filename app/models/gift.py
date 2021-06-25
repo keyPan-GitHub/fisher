@@ -11,9 +11,12 @@
 '''
 
 # here put the import lib
-from app.models.base import db,Base
-from sqlalchemy import Column,String,Integer,Boolean,ForeignKey
+from app.models.base import Base, db
+from sqlalchemy import Boolean, Column, ForeignKey, Integer, String,desc
 from sqlalchemy.orm import relationship
+from flask import current_app
+
+from app.spider.yushu_book import YuShuBook
 
 class Gift(Base):
     id = Column(Integer, primary_key=True) # 用户唯一标识
@@ -24,3 +27,20 @@ class Gift(Base):
     # bid = Column(Integer, ForeignKey('book.id'))
     launched = Column(Boolean,default=False) # 礼物送出与否，默认为未送出
     
+    @property
+    def book(self):
+        yushu_book = YuShuBook()
+        yushu_book.search_by_isbn(self.isbn)
+        return yushu_book.first
+    
+    @classmethod
+    # @property
+    def recent(cls):
+        recent_gifts = Gift.query.filter_by(
+            launched=False).group_by(
+            Gift.isbn).order_by(
+            desc(Gift.create_time)).limit(
+            current_app.config['RECENT_BOOK_COUNT']).distinct().all()
+        return recent_gifts
+    
+       

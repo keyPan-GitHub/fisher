@@ -11,16 +11,19 @@
 '''
 
 # here put the import lib
-from app.models.base import db,Base
-from sqlalchemy import Column,String,Integer,Boolean,ForeignKey
+from app.models.base import Base, db
+from app.models.gift import Gift
+from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
+
 class Wish(Base):
-    id = Column(Integer, primary_key=True) # 用户唯一标识
+    id = Column(Integer, primary_key=True)  # 用户唯一标识
     user = relationship('User')  # 外键
-    uid = Column(Integer, ForeignKey('user.id')) #在user表中获取id
-    isbn = Column(String(15),nullable=False) 
+    uid = Column(Integer, ForeignKey('user.id'))  #在user表中获取id
+    isbn = Column(String(15), nullable=False)
     # book = relationship('Book')
     # bid = Column(Integer, ForeignKey('book.id'))
-    launched = Column(Boolean,default=False) # 礼物送出与否，默认为未送出
-    
+    launched = Column(Boolean, default=False)  # 礼物送出与否，默认为未送出
+
+
