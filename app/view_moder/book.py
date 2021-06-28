@@ -14,6 +14,7 @@
 
 from app.web import book
 
+
 class BookViewModer:
     def __init__(self, book):
         self.title = book['title']

@@ -5,8 +5,9 @@
 # @File    : book.py
 # @Software: PyCharm
 
-from sqlalchemy import Column, Integer, String
 from app.models.base import Base, db
+from sqlalchemy import Column, Integer, String
+
 
 class Book(db.Model):
     id = Column(Integer, primary_key=True, autoincrement=True)  #书籍编号

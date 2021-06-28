@@ -7,8 +7,8 @@
 
 from flask import Flask
 from flask_login import LoginManager
-from app.models.book import db
 
+from app.models.book import db
 
 login_manager = LoginManager()
 

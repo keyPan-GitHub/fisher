@@ -12,10 +12,12 @@
 
 # here put the import lib
 
-from datetime import datetime
-from flask_sqlalchemy import SQLAlchemy as _SQLAlchemy,BaseQuery
-from sqlalchemy import Column, String, Integer, Boolean, Float,SmallInteger
 from contextlib import contextmanager
+from datetime import datetime
+
+from flask_sqlalchemy import BaseQuery
+from flask_sqlalchemy import SQLAlchemy as _SQLAlchemy
+from sqlalchemy import Boolean, Column, Float, Integer, SmallInteger, String
 
 
 class SQLAlchemy(_SQLAlchemy):

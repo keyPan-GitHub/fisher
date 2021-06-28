@@ -7,6 +7,7 @@
 from app.lib.my_http import MY_HTTP
 from flask import current_app
 
+
 class YuShuBook:
     isbn_url = 'http://t.talelin.com/v2/book/isbn/{}'
     keyword_url = 'http://t.talelin.com/v2/book/search?q={}&count={}&start={}'

@@ -12,14 +12,16 @@
 
 # here put the import lib
 
-from flask.helpers import flash
-from wtforms.validators import Email
 from app.froms.auth import LoginForm, RegisterForm
-from app.models.user import User
 from app.models.base import db
-from . import web
-from flask import request,render_template,redirect,url_for
+from app.models.user import User
+from flask import redirect, render_template, request, url_for
+from flask.helpers import flash
 from flask_login import login_user
+from wtforms.validators import Email
+
+from . import web
+
 __author__ = '七月'
 
 

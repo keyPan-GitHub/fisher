@@ -5,7 +5,7 @@ __author__ = '七月'
 
 @web.route('/drift/<int:gid>', methods=['GET', 'POST'])
 def send_drift(gid):
-    pass
+    return 'hello drift'
 
 
 @web.route('/pending')

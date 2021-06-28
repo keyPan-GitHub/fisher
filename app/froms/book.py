@@ -5,7 +5,7 @@
 # @File    : book.py
 # @Software: PyCharm
 
-from wtforms import Form, StringField, IntegerField
+from wtforms import Form, IntegerField, StringField
 from wtforms.validators import Length, NumberRange
 
 

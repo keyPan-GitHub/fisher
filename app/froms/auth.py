@@ -12,9 +12,11 @@
 
 # here put the import lib
 
-from wtforms import Form, IntegerField, PasswordField, StringField
-from wtforms.validators import DataRequired, Email, Length, NumberRange, ValidationError
 from app.models.user import User
+from wtforms import Form, IntegerField, PasswordField, StringField
+from wtforms.validators import (DataRequired, Email, Length, NumberRange,
+                                ValidationError)
+
 
 class RegisterForm(Form):
     email = StringField(validators=[DataRequired(),Length(8,64),

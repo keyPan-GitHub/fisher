@@ -13,17 +13,17 @@
 # here put the import lib
 
 
-from app.models.wish import Wish
-from app.models.gift import Gift
-
-from sqlalchemy.sql.expression import false
-from app.models.base import db,Base
-from werkzeug.security import generate_password_hash,check_password_hash
-from sqlalchemy import Column, String, Integer, Boolean, Float
-from flask_login import UserMixin
 from app import login_manager
 from app.lib.helper import is_isbn_or_key
+from app.models.base import Base, db
+from app.models.gift import Gift
+from app.models.wish import Wish
 from app.spider.yushu_book import YuShuBook
+from flask_login import UserMixin
+from sqlalchemy import Boolean, Column, Float, Integer, String
+from sqlalchemy.sql.expression import false
+from werkzeug.security import check_password_hash, generate_password_hash
+
 
 class User(UserMixin,Base):
     id = Column(Integer, primary_key=True) # 用户唯一标识

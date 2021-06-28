@@ -1,10 +1,11 @@
 
-from . import web
 from app.models.base import db
-from flask_login.utils import login_required
-from flask import current_app,redirect,flash, url_for
-from flask_login import login_required,current_user
 from app.models.wish import Wish
+from flask import current_app, flash, redirect, url_for
+from flask_login import current_user, login_required
+from flask_login.utils import login_required
+
+from . import web
 
 __author__ = '七月'
 

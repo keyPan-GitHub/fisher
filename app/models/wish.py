@@ -12,7 +12,7 @@
 
 # here put the import lib
 from app.models.base import Base, db
-from app.models.gift import Gift
+# from app.models.gift import Gift
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
