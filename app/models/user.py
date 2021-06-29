@@ -21,9 +21,9 @@ from app.models.wish import Wish
 from app.spider.yushu_book import YuShuBook
 from flask_login import UserMixin
 from sqlalchemy import Boolean, Column, Float, Integer, String
-from sqlalchemy.sql.expression import false
 from werkzeug.security import check_password_hash, generate_password_hash
-
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+from flask import current_app
 
 class User(UserMixin,Base):
     id = Column(Integer, primary_key=True) # 用户唯一标识
@@ -72,7 +72,26 @@ class User(UserMixin,Base):
         
     # def get_id(self):
     #     return self.id
+    
+    def generate_token(self, expiration=600):
+        s = Serializer(current_app.config['SECRET_KEY'],expiration)
+        return s.dumps({'id': self.id}).decode('utf-8')
+        
+    @staticmethod
+    def reset_password(token, new_password,):
+        s = Serializer(current_app.config['SECRET_KEY'])
+        try:
+            data = s.loads(token.encode('utf-8'))
+        except:
+            return False
+        uid = data.get('id')
+        with db.auto_commit():
+            user = User.query.get(uid)
+            user.password = new_password
+        return True
 
+        
+        
     
 @login_manager.user_loader
 def get_user(uid):

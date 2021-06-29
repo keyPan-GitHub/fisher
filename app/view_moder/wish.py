@@ -18,7 +18,7 @@ from app.view_moder.book import BookViewModer
 
 # MyGift = namedtuple('MyGift', ['id','book','wishes_count'])
 
-class MyGifts:
+class MyWishes:
     def __init__(self, gifts_of_mine, wish_count_list):
         self.gifts = []
         self.__gifts_of_mine = gifts_of_mine

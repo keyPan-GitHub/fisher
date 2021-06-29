@@ -16,7 +16,7 @@
 from collections import namedtuple
 
 from app.models.base import Base, db
-from app.models.wish import Wish
+
 from app.spider.yushu_book import YuShuBook
 from flask import current_app
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, desc, func
@@ -46,6 +46,7 @@ class Gift(Base):
         Args:
             isbn_list (bool): [传入的值]
         """
+        from app.models.wish import Wish
         count_list = db.session.query(func.count(Wish.id),Wish.isbn).filter(
             Wish.launched == False,
             Wish.isbn.in_(isbn_list),
@@ -61,7 +62,6 @@ class Gift(Base):
         return yushu_book.first
     
     @classmethod
-    # @property
     def recent(cls):
         recent_gift = Gift.query.filter_by(
             launched=False).group_by(
