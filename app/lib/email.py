@@ -32,5 +32,6 @@ def send_mail(to, subject, template, **kwargs):
                   sender=current_app.config['MAIL_USERNAME'],
                   recipients=[to])
     msg.html = render_template(template, **kwargs)
-    thr = Thread(target=send_aync_mail,args=[current_app, msg])
+    app = current_app._get_current_object()
+    thr = Thread(target=send_aync_mail,args=[app, msg])
     thr.start()

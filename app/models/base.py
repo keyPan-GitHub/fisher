@@ -25,7 +25,7 @@ class SQLAlchemy(_SQLAlchemy):
     def auto_commit(self):
         try:
             yield
-            self.session.Commit() 
+            self.session.commit() 
         except Exception as e:
             self.session.rollback()
             raise e

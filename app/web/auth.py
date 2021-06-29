@@ -74,7 +74,7 @@ def forget_password_request():
 
 @web.route('/reset/password/<token>', methods=['GET', 'POST'])
 def forget_password(token):
-    form = ResetPasswordForm()
+    form = ResetPasswordForm(request.form)
     if request.method == 'POST' and form.validate():
         success = User.reset_password(token,form.password1.data)
         if success:
