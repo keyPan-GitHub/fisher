@@ -37,7 +37,7 @@ class Query(BaseQuery):
             kwargs['status'] = 1
         return super(Query,self).filter_by(**kwargs)     
 
-db = _SQLAlchemy(query_class=Query)
+db = SQLAlchemy(query_class=Query)
 
 class Base(db.Model):
     __abstract__ = True

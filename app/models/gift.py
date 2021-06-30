@@ -16,7 +16,6 @@
 from collections import namedtuple
 
 from app.models.base import Base, db
-
 from app.spider.yushu_book import YuShuBook
 from flask import current_app
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, desc, func
@@ -31,6 +30,9 @@ class Gift(Base):
     # book = relationship('Book')
     # bid = Column(Integer, ForeignKey('book.id'))
     launched = Column(Boolean,default=False) # 礼物送出与否，默认为未送出
+    
+    def is_yourself_gift(self, uid):
+        return True if self.uid == uid else False
     
     @classmethod
     def get_user_gift(cls,uid):
