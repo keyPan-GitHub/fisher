@@ -12,18 +12,19 @@
 
 # here put the import lib
 
-from app.lib.enums import PendingStatus
-from app.view_moder.drift import DriftCollection
-from sqlalchemy.sql.expression import desc
-from sqlalchemy import or_
+from app.models.user import User
 from app.froms.book import DriftForm
 from app.lib.email import send_mail
+from app.lib.enums import PendingStatus
 from app.models.base import db
 from app.models.drift import Drift
 from app.models.gift import Gift
-from flask import (current_app, flash, redirect, render_template, request,
-                   url_for)
+from app.models.wish import Wish
+from app.view_moder.drift import DriftCollection
+from flask import flash, redirect, render_template, request, url_for
 from flask_login import current_user, login_required
+from sqlalchemy import or_
+from sqlalchemy.sql.expression import desc
 from werkzeug.utils import redirect
 
 from . import web
@@ -49,6 +50,7 @@ def send_drift(gid):
         send_mail(current_gift.user.email, '有人想要一本书','email/get_gift.html',
                   wisher=current_user,
                   gift=current_gift)
+        return redirect(url_for('web.pending'))
     
     gifter = current_gift.user.summary
     return render_template('drift.html',
@@ -57,9 +59,9 @@ def send_drift(gid):
 @web.route('/pending')
 @login_required
 def pending():
-    drifts = Drift.query.filter(
-        or_(Drift.requester_id==current_user.id, 
-            Drift.gifter_id==current_user.id)).order_by(
+    drifts = Drift.query.filter( \
+        or_(Drift.requester_id==current_user.id, \
+            Drift.gifter_id==current_user.id)).order_by( \
                 desc(Drift.create_time)).all()
             
     views = DriftCollection(drifts,current_user.id)
@@ -67,22 +69,42 @@ def pending():
 
 
 @web.route('/drift/<int:did>/reject')
+@login_required
 def reject_drift(did):
-    pass
+    with db.auto_commit():
+        drift = Drift.query.filter(
+            Gift.uid == current_user.id,Drift.id == did).first_or_404()
+        drift.pending = PendingStatus.Reject
+        requester = User.query.get_or_404(drift.requester_id)
+        requester.beans += 1
+    return redirect(url_for('web.pending'))
 
 
 @web.route('/drift/<int:did>/redraw')
 def redraw_drift(did):
     with db.auto_commit():
-        drift = Drift.query.filter(Drift.id == did).first_or_404()
+        drift = Drift.query.filter_by(
+            requester_id = current_user.id,id = did).first_or_404()
         drift.pending = PendingStatus.Redraw
+        current_user.beans += 1
     return redirect(url_for('web.pending'))
     
 
 
 @web.route('/drift/<int:did>/mailed')
 def mailed_drift(did):
-    pass
+    with db.auto_commit():
+        # requester_id = current_user.id 这个条件可以防止超权
+        drift = Drift.query.filter_by(
+            gifter_id=current_user.id, id=did).first_or_404()
+        drift.pending = PendingStatus.Success
+        current_user.beans += 1
+        gift = Gift.query.filter_by(id=drift.gift_id).first_or_404()
+        gift.launched = True
+        # 不查询直接更新;这一步可以异步来操作
+        Wish.query.filter_by(isbn=drift.isbn, uid=drift.requester_id,
+                             launched=False).update({Wish.launched: True})
+    return redirect(url_for('web.pending'))
 
 
 

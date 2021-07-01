@@ -72,4 +72,4 @@ class Gift(Base):
             current_app.config['RECENT_BOOK_COUNT']).distinct().all()
         return recent_gift
     
-       
+    
